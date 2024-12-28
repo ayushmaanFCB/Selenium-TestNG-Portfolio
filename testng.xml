@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FlaskPortfolioTests" verbose="1">
+    <parameter name="baseUrl" value="http://localhost:8000" />
+    <test name="AllPageTests">
+        <classes>
+            <class name="main.java.app.HomePageTests" />
+            <class name="main.java.app.ProjectsPageTests" />
+            <class name="main.java.app.SkillsPageTests" />
+            <class name="main.java.app.BlogPageTests" />
+            <class name="main.java.app.ContactPageTests" />
+        </classes>
+    </test>
+</suite>

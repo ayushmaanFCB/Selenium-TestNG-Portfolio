@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>TestNG:  AllPageTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AllPageTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 28 13:08:14 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>50 seconds (50925 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='main.java.app.ContactPageTests.testContactPage()'><b>testContactPage</b><br>Test class: main.java.app.ContactPageTests<br/>
+<a href="#Output-1266093632" onClick='toggleBox("Output-1266093632", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1266093632" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1266093632">
+Social links are displayed successfully.<br/>
+Contact form is displayed successfully.<br/>
+Form submitted successfully, navigated to Home.<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>main.java.app.ContactPageTests@51931956</td></tr>
+<tr>
+<td title='main.java.app.BlogPageTests.testBlogPage()'><b>testBlogPage</b><br>Test class: main.java.app.BlogPageTests<br/>
+<a href="#Output-732597634" onClick='toggleBox("Output-732597634", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-732597634" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-732597634">
+Blog page contains 21 blogs.<br/>
+Filter applied: Sorted by Date (Newest First).<br/>
+Filter applied: Blog Type - Project. 21 blogs displayed.<br/>
+Filter applied: Date Range from 2023-01-01 to 2023-12-31.<br/>
+First blog date is displayed correctly after filters.<br/>
+Upvote functionality validated for the first blog.<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>main.java.app.BlogPageTests@971d0d8</td></tr>
+<tr>
+<td title='main.java.app.ProjectsPageTests.testProjectsPage()'><b>testProjectsPage</b><br>Test class: main.java.app.ProjectsPageTests<br/>
+<a href="#Output-1233327519" onClick='toggleBox("Output-1233327519", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1233327519" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1233327519">
+Projects Page contains 9 project cards.<br/>
+Successfully navigated to: https://github.com/ayushmaanFCB/Premier-League--2021-22--Tableau-Dashboard<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>main.java.app.ProjectsPageTests@491666ad</td></tr>
+<tr>
+<td title='main.java.app.SkillsPageTests.testSkillsPage()'><b>testSkillsPage</b><br>Test class: main.java.app.SkillsPageTests<br/>
+<a href="#Output-177104018" onClick='toggleBox("Output-177104018", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-177104018" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-177104018">
+Skills Page contains 5 skill sections.<br/>
+Section: MACHINE LEARNING, DEEP LEARNING AND COMPUTER VISION
+Skill section contains 5 images.<br/>
+Section: DATA ANALYTICS AND CLOUD
+Skill section contains 4 images.<br/>
+Section: DATABASE SYSTEMS (RDBMS & NRDBMS)
+Skill section contains 3 images.<br/>
+Section: WEB DEVELOPMENT TOOLS AND FRAMEWORKS
+Skill section contains 5 images.<br/>
+Section: PROGRAMMING LANGUAGES
+Skill section contains 6 images.<br/>
+Navigated to Programming Languages section successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>main.java.app.SkillsPageTests@176d53b2</td></tr>
+<tr>
+<td title='main.java.app.HomePageTests.testHomePageContent()'><b>testHomePageContent</b><br>Test class: main.java.app.HomePageTests<br/>
+<a href="#Output-2073299099" onClick='toggleBox("Output-2073299099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2073299099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2073299099">
+Testing Home Page - Title: AyushMaan's Portfolio<br/>
+Main Content is rendered successfully.<br/>
+Navbar is rendered successfully.<br/>
+The Footer is rendered successfully.<br/>
+Home Page validation completed.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>main.java.app.HomePageTests@226a82c4</td></tr>
+</table><p>
+</body>
+</html>

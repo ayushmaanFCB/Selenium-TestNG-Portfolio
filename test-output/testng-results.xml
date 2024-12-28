@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting Home Page Tests...]]>
+    </line>
+    <line>
+      <![CDATA[Testing Home Page - Title: AyushMaan's Portfolio]]>
+    </line>
+    <line>
+      <![CDATA[Main Content is rendered successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Navbar is rendered successfully.]]>
+    </line>
+    <line>
+      <![CDATA[The Footer is rendered successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Home Page validation completed.]]>
+    </line>
+    <line>
+      <![CDATA[Starting Projects Page Tests...]]>
+    </line>
+    <line>
+      <![CDATA[Projects Page contains 9 project cards.]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to: https://github.com/ayushmaanFCB/Premier-League--2021-22--Tableau-Dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Starting Skills Page Tests...]]>
+    </line>
+    <line>
+      <![CDATA[Skills Page contains 5 skill sections.]]>
+    </line>
+    <line>
+      <![CDATA[Section: MACHINE LEARNING, DEEP LEARNING AND COMPUTER VISION
+Skill section contains 5 images.]]>
+    </line>
+    <line>
+      <![CDATA[Section: DATA ANALYTICS AND CLOUD
+Skill section contains 4 images.]]>
+    </line>
+    <line>
+      <![CDATA[Section: DATABASE SYSTEMS (RDBMS & NRDBMS)
+Skill section contains 3 images.]]>
+    </line>
+    <line>
+      <![CDATA[Section: WEB DEVELOPMENT TOOLS AND FRAMEWORKS
+Skill section contains 5 images.]]>
+    </line>
+    <line>
+      <![CDATA[Section: PROGRAMMING LANGUAGES
+Skill section contains 6 images.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Programming Languages section successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Starting Blog Page Tests...]]>
+    </line>
+    <line>
+      <![CDATA[Blog page contains 21 blogs.]]>
+    </line>
+    <line>
+      <![CDATA[Filter applied: Sorted by Date (Newest First).]]>
+    </line>
+    <line>
+      <![CDATA[Filter applied: Blog Type - Project. 21 blogs displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Filter applied: Date Range from 2023-01-01 to 2023-12-31.]]>
+    </line>
+    <line>
+      <![CDATA[First blog date is displayed correctly after filters.]]>
+    </line>
+    <line>
+      <![CDATA[Upvote functionality validated for the first blog.]]>
+    </line>
+    <line>
+      <![CDATA[Starting Contact Page Tests...]]>
+    </line>
+    <line>
+      <![CDATA[Social links are displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Contact form is displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Form submitted successfully, navigated to Home.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-12-28T13:08:14 IST" name="FlaskPortfolioTests" finished-at="2024-12-28T13:09:05 IST" duration-ms="50925">
+    <groups>
+    </groups>
+    <test started-at="2024-12-28T13:08:14 IST" name="AllPageTests" finished-at="2024-12-28T13:09:05 IST" duration-ms="50925">
+      <class name="main.java.app.SkillsPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:main.java.app.SkillsPageTests@176d53b2]" started-at="2024-12-28T13:08:31 IST" name="setup" finished-at="2024-12-28T13:08:34 IST" duration-ms="2871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Skills Page Tests...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSkillsPage()[pri:0, instance:main.java.app.SkillsPageTests@176d53b2]" started-at="2024-12-28T13:08:34 IST" name="testSkillsPage" finished-at="2024-12-28T13:08:36 IST" duration-ms="2539" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Skills Page contains 5 skill sections.]]>
+            </line>
+            <line>
+              <![CDATA[Section: MACHINE LEARNING, DEEP LEARNING AND COMPUTER VISION
+Skill section contains 5 images.]]>
+            </line>
+            <line>
+              <![CDATA[Section: DATA ANALYTICS AND CLOUD
+Skill section contains 4 images.]]>
+            </line>
+            <line>
+              <![CDATA[Section: DATABASE SYSTEMS (RDBMS & NRDBMS)
+Skill section contains 3 images.]]>
+            </line>
+            <line>
+              <![CDATA[Section: WEB DEVELOPMENT TOOLS AND FRAMEWORKS
+Skill section contains 5 images.]]>
+            </line>
+            <line>
+              <![CDATA[Section: PROGRAMMING LANGUAGES
+Skill section contains 6 images.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Programming Languages section successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSkillsPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:main.java.app.SkillsPageTests@176d53b2]" started-at="2024-12-28T13:08:36 IST" name="teardown" finished-at="2024-12-28T13:08:38 IST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- main.java.app.SkillsPageTests -->
+      <class name="main.java.app.BlogPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:main.java.app.BlogPageTests@971d0d8]" started-at="2024-12-28T13:08:38 IST" name="setup" finished-at="2024-12-28T13:08:41 IST" duration-ms="2973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Blog Page Tests...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testBlogPage()[pri:0, instance:main.java.app.BlogPageTests@971d0d8]" started-at="2024-12-28T13:08:41 IST" name="testBlogPage" finished-at="2024-12-28T13:08:52 IST" duration-ms="11831" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Blog page contains 21 blogs.]]>
+            </line>
+            <line>
+              <![CDATA[Filter applied: Sorted by Date (Newest First).]]>
+            </line>
+            <line>
+              <![CDATA[Filter applied: Blog Type - Project. 21 blogs displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Filter applied: Date Range from 2023-01-01 to 2023-12-31.]]>
+            </line>
+            <line>
+              <![CDATA[First blog date is displayed correctly after filters.]]>
+            </line>
+            <line>
+              <![CDATA[Upvote functionality validated for the first blog.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testBlogPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:main.java.app.BlogPageTests@971d0d8]" started-at="2024-12-28T13:08:52 IST" name="teardown" finished-at="2024-12-28T13:08:54 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- main.java.app.BlogPageTests -->
+      <class name="main.java.app.ProjectsPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:main.java.app.ProjectsPageTests@491666ad]" started-at="2024-12-28T13:08:22 IST" name="setup" finished-at="2024-12-28T13:08:25 IST" duration-ms="2693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Projects Page Tests...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testProjectsPage()[pri:0, instance:main.java.app.ProjectsPageTests@491666ad]" started-at="2024-12-28T13:08:25 IST" name="testProjectsPage" finished-at="2024-12-28T13:08:29 IST" duration-ms="4609" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Projects Page contains 9 project cards.]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to: https://github.com/ayushmaanFCB/Premier-League--2021-22--Tableau-Dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testProjectsPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:main.java.app.ProjectsPageTests@491666ad]" started-at="2024-12-28T13:08:29 IST" name="teardown" finished-at="2024-12-28T13:08:31 IST" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- main.java.app.ProjectsPageTests -->
+      <class name="main.java.app.ContactPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:main.java.app.ContactPageTests@51931956]" started-at="2024-12-28T13:08:54 IST" name="setup" finished-at="2024-12-28T13:08:57 IST" duration-ms="2694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Contact Page Tests...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactPage()[pri:0, instance:main.java.app.ContactPageTests@51931956]" started-at="2024-12-28T13:08:57 IST" name="testContactPage" finished-at="2024-12-28T13:09:03 IST" duration-ms="6594" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Social links are displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Contact form is displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Form submitted successfully, navigated to Home.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testContactPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:main.java.app.ContactPageTests@51931956]" started-at="2024-12-28T13:09:03 IST" name="teardown" finished-at="2024-12-28T13:09:05 IST" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- main.java.app.ContactPageTests -->
+      <class name="main.java.app.HomePageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:main.java.app.HomePageTests@226a82c4]" started-at="2024-12-28T13:08:14 IST" name="setup" finished-at="2024-12-28T13:08:19 IST" duration-ms="4931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Home Page Tests...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHomePageContent()[pri:0, instance:main.java.app.HomePageTests@226a82c4]" started-at="2024-12-28T13:08:19 IST" name="testHomePageContent" finished-at="2024-12-28T13:08:21 IST" duration-ms="1844" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing Home Page - Title: AyushMaan's Portfolio]]>
+            </line>
+            <line>
+              <![CDATA[Main Content is rendered successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Navbar is rendered successfully.]]>
+            </line>
+            <line>
+              <![CDATA[The Footer is rendered successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Home Page validation completed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomePageContent -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:main.java.app.HomePageTests@226a82c4]" started-at="2024-12-28T13:08:21 IST" name="teardown" finished-at="2024-12-28T13:08:22 IST" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- main.java.app.HomePageTests -->
+    </test> <!-- AllPageTests -->
+  </suite> <!-- FlaskPortfolioTests -->
+</testng-results>

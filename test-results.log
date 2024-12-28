@@ -1,0 +1,28 @@
+Dec 28, 2024 1:08:13 PM main.Main main
+INFO: Initializing tests...
+Dec 28, 2024 1:08:14 PM main.java.utils.TestListener onStart
+INFO: Starting test suite: AllPageTests
+Dec 28, 2024 1:08:19 PM main.java.utils.TestListener onTestStart
+INFO: Starting test: testHomePageContent
+Dec 28, 2024 1:08:21 PM main.java.utils.TestListener onTestSuccess
+INFO: Test passed: testHomePageContent
+Dec 28, 2024 1:08:25 PM main.java.utils.TestListener onTestStart
+INFO: Starting test: testProjectsPage
+Dec 28, 2024 1:08:29 PM main.java.utils.TestListener onTestSuccess
+INFO: Test passed: testProjectsPage
+Dec 28, 2024 1:08:34 PM main.java.utils.TestListener onTestStart
+INFO: Starting test: testSkillsPage
+Dec 28, 2024 1:08:36 PM main.java.utils.TestListener onTestSuccess
+INFO: Test passed: testSkillsPage
+Dec 28, 2024 1:08:41 PM main.java.utils.TestListener onTestStart
+INFO: Starting test: testBlogPage
+Dec 28, 2024 1:08:52 PM main.java.utils.TestListener onTestSuccess
+INFO: Test passed: testBlogPage
+Dec 28, 2024 1:08:57 PM main.java.utils.TestListener onTestStart
+INFO: Starting test: testContactPage
+Dec 28, 2024 1:09:03 PM main.java.utils.TestListener onTestSuccess
+INFO: Test passed: testContactPage
+Dec 28, 2024 1:09:05 PM main.java.utils.TestListener onFinish
+INFO: Finished test suite: AllPageTests
+Dec 28, 2024 1:09:05 PM main.Main main
+INFO: All tests executed successfully.
